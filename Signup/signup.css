@@ -1,0 +1,41 @@
+.container {
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+}
+
+body {
+    color: white;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/bee6c9a9-78f2-4294-ad27-6ca52060f5a5/dc6du5w-92b68c4d-c41c-44f2-9cdf-38ca4d895c99.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+label{
+    font-size:25px ;
+    text-align: center;
+}
+
+.submit_button{
+    font-size: 15px;
+    height:42px ;
+    background-color:#037aff ;
+    color: white;
+}
